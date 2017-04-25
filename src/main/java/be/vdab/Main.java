@@ -13,9 +13,13 @@ class Main {
 	    System.out.println("Bestand bestaat: " + objectA.getImportData().exists());
 	    System.out.println(objectA.getDefaultBladRichting());
 	    System.out.println();
+	    
 	    ClassB objectB = context.getBean(ClassB.class); 
 	    System.out.println(objectB.getTelefoonNrHelpDesk()); 
 	    System.out.println(objectB.getAantalPogingenUpdateKlant()); 
+	    System.out.println();
+	    
+	    System.out.println(context.getBean(HelpdeskMedewerkers.class)); 
 	}
     }
 }
