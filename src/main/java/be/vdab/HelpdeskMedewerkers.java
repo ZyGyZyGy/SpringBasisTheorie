@@ -1,18 +1,18 @@
 package be.vdab;
 
-import java.util.Arrays;
+import java.util.List;
 
 public class HelpdeskMedewerkers {
 
-    private String[] namen;
+    private List<String> namen;
 
-    public void setNamen(String[] namen) {
+    public void setNamen(List<String> namen)  {
 	this.namen = namen;
     }
 
     @Override
     public String toString() {
-	return Arrays.toString(namen);
+	return namen.toString();
     }
 
 }
