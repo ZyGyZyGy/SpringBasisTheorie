@@ -16,14 +16,13 @@
 		<constructor-arg value='3' />
 	</bean>
 	<bean id='helpdeskMedewerkers' class='be.vdab.HelpdeskMedewerkers'>
-		<property name='namen'>
-			<set>
-				<value>Joe</value>
-				<value>Jack</value>
-				<value>William</value>
-				<value>Averell</value>
-				<value>Joe</value> <!-- een dubbele waarde -->
-			</set>
-		</property>
+		<constructor-arg>
+			<map>
+				<entry key='Joe' value='123' />
+				<entry key='Jack' value='456' />
+				<entry key='William' value='789' />
+				<entry key='Averell' value='321' />
+			</map>
+		</constructor-arg>
 	</bean>
 </beans>

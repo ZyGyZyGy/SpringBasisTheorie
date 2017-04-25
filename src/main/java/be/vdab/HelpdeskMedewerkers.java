@@ -1,18 +1,19 @@
 package be.vdab;
 
-import java.util.Set;
+import java.util.Map;
 
 public class HelpdeskMedewerkers {
 
-    private Set<String> namen;
+    private final Map<String, Integer> medewerkers;
 
-    public void setNamen(Set<String> namen)  {
-	this.namen = namen;
+    // key = naam medewerker, value=intern telefoonnummer
+    HelpdeskMedewerkers(Map<String, Integer> medewerkers) {
+	this.medewerkers = medewerkers;
     }
 
     @Override
     public String toString() {
-	return namen.toString();
+	return medewerkers.toString();
     }
 
 }
