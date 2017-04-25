@@ -17,13 +17,13 @@
 	</bean>
 	<bean id='helpdeskMedewerkers' class='be.vdab.HelpdeskMedewerkers'>
 		<property name='namen'>
-			<list>
+			<set>
 				<value>Joe</value>
 				<value>Jack</value>
 				<value>William</value>
 				<value>Averell</value>
 				<value>Joe</value> <!-- een dubbele waarde -->
-			</list>
+			</set>
 		</property>
 	</bean>
 </beans>

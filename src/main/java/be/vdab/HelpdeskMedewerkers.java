@@ -1,12 +1,12 @@
 package be.vdab;
 
-import java.util.List;
+import java.util.Set;
 
 public class HelpdeskMedewerkers {
 
-    private List<String> namen;
+    private Set<String> namen;
 
-    public void setNamen(List<String> namen)  {
+    public void setNamen(Set<String> namen)  {
 	this.namen = namen;
     }
 
