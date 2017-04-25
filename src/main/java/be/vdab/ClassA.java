@@ -11,6 +11,7 @@ public class ClassA implements InterfaceA {
     private File importData;
     private BladRichtingInPrinter defaultBladRichting;
     private String telefoonNrHelpDesk;
+    private EmailAdres webMasterEmailAdres;
 
     public URL getKoersenURL() {
 	return koersenURL;
@@ -51,7 +52,15 @@ public class ClassA implements InterfaceA {
     public void setTelefoonNrHelpDesk(String telefoonNrHelpDesk) {
 	this.telefoonNrHelpDesk = telefoonNrHelpDesk;
     }
-    
+
+    public EmailAdres getWebMasterEmailAdres() {
+	return webMasterEmailAdres;
+    }
+
+    public void setWebMasterEMailAdres(EmailAdres webMasterEMailAdres) {
+	this.webMasterEmailAdres = webMasterEMailAdres;
+    }
+
     @Override
     public String getBoodschap() {
 	return "ClassA object";

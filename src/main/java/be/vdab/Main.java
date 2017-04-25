@@ -20,6 +20,9 @@ class Main {
 	    System.out.println();
 	    
 	    System.out.println(context.getBean(HelpdeskMedewerkers.class)); 
+	    System.out.println();
+	    
+	    System.out.println(context.getBean(ClassA.class).getWebMasterEmailAdres()); 
 	}
     }
 }
