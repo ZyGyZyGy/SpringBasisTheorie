@@ -10,7 +10,7 @@ class Main {
 
     public static void main(String[] args) {
 	try (ClassPathXmlApplicationContext context = 
-		new ClassPathXmlApplicationContext("container.xml")) {
+		 new ClassPathXmlApplicationContext("restclients.xml", "services.xml")) {
 	    System.out.println(
 		    context.getBean(EuroService.class).naarDollar(BigDecimal.valueOf(2)));
 	}
