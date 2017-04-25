@@ -23,6 +23,9 @@ class Main {
 	    System.out.println();
 	    
 	    System.out.println(context.getBean(ClassA.class).getWebMasterEmailAdres()); 
+	    System.out.println();
+	    
+	    System.out.println(context.getBean(ClassA.class).getWebsiteGestart()); 
 	}
     }
 }
