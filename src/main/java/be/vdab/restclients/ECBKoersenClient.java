@@ -7,12 +7,12 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class ECBKoersenClient implements KoersenClient {
+class ECBKoersenClient implements KoersenClient {
 
     private static final Logger LOGGER = Logger.getLogger(ECBKoersenClient.class.getName());
     private final URL url;
 
-    public ECBKoersenClient(URL url) {
+    ECBKoersenClient(URL url) {
 	this.url = url;
     }
 
