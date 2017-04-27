@@ -17,6 +17,7 @@ public class EuroService {
 	this.koersenClient = koersenClient;
     }
 
+    // te gebruiken bij setter injection
 //    @Autowired
 //    public void setKoersenClient(@Qualifier("ECB") KoersenClient koersenClient) {
 //	this.koersenClient = koersenClient;
