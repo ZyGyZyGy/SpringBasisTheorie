@@ -6,7 +6,6 @@ import org.springframework.context.annotation.ImportResource;
 
 @Configuration
 @ComponentScan
-@ImportResource("classpath:services.xml")
 public class ServicesConfig {
 
 }

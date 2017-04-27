@@ -13,7 +13,7 @@ public class EuroService {
 
     private final KoersenClient koersenClient;
 
-    public EuroService(@Qualifier("ECB") KoersenClient koersenClient) {
+    public EuroService(@Qualifier("Yahoo") KoersenClient koersenClient) {
 	this.koersenClient = koersenClient;
     }
 
